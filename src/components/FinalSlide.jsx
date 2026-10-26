@@ -101,7 +101,7 @@ export default function FinalSlide({ dateRevealed }) {
             textTransform: 'uppercase',
           }}
         >
-          BHIMANATHI FAMILY INVITES YOU
+          KOTTURU FAMILY INVITES YOU
         </motion.h1>
 
         <motion.p
@@ -114,8 +114,8 @@ export default function FinalSlide({ dateRevealed }) {
           }}
         >
           With great happiness, we request the honor of your presence as we
-          celebrate the sacred wedding ceremony of our youngest daughter{' '}
-          <strong>KIRAN SREE</strong> with <strong>SRIKANTH</strong>.
+          celebrate the sacred wedding ceremony of our son{' '}
+          <strong>SRIKANTH</strong> with <strong>KIRAN SREE</strong>.
         </motion.p>
 
         <motion.p
@@ -266,7 +266,7 @@ export default function FinalSlide({ dateRevealed }) {
               margin: 0,
             }}
           >
-            B. SURYA KIRAN &amp; B. S. JAYA SREE
+            K. SRINIVAS &amp; K. SARITHA
           </motion.p>
         </motion.div>
 

@@ -17,7 +17,7 @@ export default function FormalInvitation() {
         background: '#fdf8f0',
       }}
     >
-      {/* Background: couple-main.jpeg */}
+      {/* Background photo */}
       <img
         src="/couple-main.jpeg"
         alt="Kiran Sree and Srikanth"
@@ -31,7 +31,7 @@ export default function FormalInvitation() {
         }}
       />
 
-      {/* Dark overlay for readability */}
+      {/* Dark overlay */}
       <div
         style={{
           position: 'absolute',
@@ -40,7 +40,7 @@ export default function FormalInvitation() {
         }}
       />
 
-      {/* Animated formal invitation card */}
+      {/* Formal invitation card */}
       <motion.div
         variants={fadeUp}
         initial="hidden"
@@ -82,7 +82,7 @@ export default function FormalInvitation() {
             style={{ fontSize: '15px', lineHeight: 1.8 }}
           >
             With the blessings of the Almighty, we cordially invite you
-            to bless the wedding of our beloved daughter.
+            to bless the wedding of our beloved son.
           </motion.p>
 
           <motion.p
@@ -94,71 +94,34 @@ export default function FormalInvitation() {
               lineHeight: 2,
             }}
           >
-            భగవంతుని ఆశీస్సులతో మా ప్రియమైన కుమార్తె వివాహానికి
+            భగవంతుని ఆశీస్సులతో మా ప్రియమైన కుమారుడి వివాహానికి
             విచ్చేసి ఆశీర్వదించవలసిందిగా మనస్ఫూర్తిగా ఆహ్వానిస్తున్నాము.
           </motion.p>
 
+          {/* Groom's name */}
           <motion.h1
             variants={fadeUp}
             style={{
               color: '#f0c4d5',
-              fontSize: 'clamp(27px, 7vw, 38px)',
-              margin: '22px 0 8px',
+              fontSize: '32px',
+              margin: '22px 0 6px',
             }}
           >
-            Chi. Sow. Kiran Sree
+            Chi. Srikanth
           </motion.h1>
 
-          <motion.p
-            variants={fadeUp}
-            lang="te"
-            style={{
-              fontFamily: '"Noto Sans Telugu", sans-serif',
-              fontSize: '15px',
-              fontStyle: 'italic',
-            }}
-          >
-            (చి. సౌ. కిరణ్ శ్రీ)
-          </motion.p>
-
-          <motion.p
-            variants={fadeUp}
-            style={{ fontSize: '14px', lineHeight: 1.8 }}
-          >
-            (Youngest D/o. Smt. Jaya Sree &amp; Sri. B. Surya Kiran)
-          </motion.p>
-
-          <motion.p
-            variants={fadeUp}
-            lang="te"
-            style={{
-              fontFamily: '"Noto Sans Telugu", sans-serif',
-              fontSize: '13px',
-              fontStyle: 'italic',
-              lineHeight: 2,
-            }}
-          >
-            (శ్రీమతి జయ శ్రీ &amp; శ్రీ బి. సూర్య కిరణ్ గారి కనిష్ఠ కుమార్తె)
-          </motion.p>
-
+          {/* Groom's qualifications */}
           <motion.p
             variants={fadeUp}
             style={{
               color: '#e2bd7a',
-              fontSize: '22px',
-              fontStyle: 'italic',
-              margin: '16px 0',
+              fontSize: '13px',
+              letterSpacing: '0.5px',
+              margin: '0 0 10px',
             }}
           >
-            with
+            B.Com | LLB
           </motion.p>
-
-          <motion.h2
-            variants={fadeUp}
-            style={{ fontSize: '32px', margin: '8px 0' }}
-          >
-            Chi. Srikanth
-          </motion.h2>
 
           <motion.p
             variants={fadeUp}
@@ -192,6 +155,77 @@ export default function FormalInvitation() {
             (శ్రీమతి సరిత &amp; శ్రీ కె. శ్రీనివాస్ గారి కుమారుడు)
           </motion.p>
 
+          {/* With */}
+          <motion.p
+            variants={fadeUp}
+            style={{
+              color: '#e2bd7a',
+              fontSize: '22px',
+              fontStyle: 'italic',
+              margin: '16px 0',
+            }}
+          >
+            with
+          </motion.p>
+
+          {/* Bride's name */}
+          <motion.h2
+            variants={fadeUp}
+            style={{
+              color: '#f0c4d5',
+              fontSize: 'clamp(27px, 7vw, 38px)',
+              margin: '22px 0 6px',
+            }}
+          >
+            Chi. Sow. Kiran Sree
+          </motion.h2>
+
+          {/* Bride's qualifications */}
+          <motion.p
+            variants={fadeUp}
+            style={{
+              color: '#e2bd7a',
+              fontSize: '13px',
+              letterSpacing: '0.5px',
+              margin: '0 0 10px',
+            }}
+          >
+            B.Tech | M.Sc. | LLB
+          </motion.p>
+
+          <motion.p
+            variants={fadeUp}
+            lang="te"
+            style={{
+              fontFamily: '"Noto Sans Telugu", sans-serif',
+              fontSize: '15px',
+              fontStyle: 'italic',
+            }}
+          >
+            (చి. సౌ. కిరణ్ శ్రీ)
+          </motion.p>
+
+          <motion.p
+            variants={fadeUp}
+            style={{ fontSize: '14px', lineHeight: 1.8 }}
+          >
+            (Youngest D/o. Smt. Jaya Sree &amp; Sri. B. Surya Kiran)
+          </motion.p>
+
+          <motion.p
+            variants={fadeUp}
+            lang="te"
+            style={{
+              fontFamily: '"Noto Sans Telugu", sans-serif',
+              fontSize: '13px',
+              fontStyle: 'italic',
+              lineHeight: 2,
+            }}
+          >
+            (శ్రీమతి జయ శ్రీ &amp; శ్రీ బి. సూర్య కిరణ్ గారి కనిష్ఠ కుమార్తె)
+          </motion.p>
+
+          {/* Decorative divider */}
           <motion.div
             variants={fadeUp}
             style={{
