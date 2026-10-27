@@ -114,7 +114,7 @@ export default function FinalSlide({ dateRevealed }) {
           }}
         >
           With great happiness, we request the honor of your presence as we
-          celebrate the sacred wedding ceremony of our elderson{' '}
+          celebrate the sacred wedding ceremony of our elder son{' '}
           <strong>SRIKANTH</strong> with <strong>KIRAN SREE</strong>.
         </motion.p>
 
