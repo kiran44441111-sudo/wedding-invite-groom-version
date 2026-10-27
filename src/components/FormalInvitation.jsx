@@ -82,7 +82,7 @@ export default function FormalInvitation() {
             style={{ fontSize: '15px', lineHeight: 1.8 }}
           >
             With the blessings of the Almighty, we cordially invite you
-            to bless the wedding of our beloved son.
+            to bless the wedding of our beloved elder son.
           </motion.p>
 
           <motion.p
@@ -94,7 +94,7 @@ export default function FormalInvitation() {
               lineHeight: 2,
             }}
           >
-            భగవంతుని ఆశీస్సులతో మా ప్రియమైన కుమారుడి వివాహానికి
+            భగవంతుని ఆశీస్సులతో మా ప్రియమైన జ్యేష్ఠ కుమారుడి వివాహానికి
             విచ్చేసి ఆశీర్వదించవలసిందిగా మనస్ఫూర్తిగా ఆహ్వానిస్తున్నాము.
           </motion.p>
 
@@ -177,7 +177,7 @@ export default function FormalInvitation() {
               margin: '22px 0 6px',
             }}
           >
-            Chi. Sow. Kiran Sree
+            Chi. La. Sow. Kiran Sree
           </motion.h2>
 
           {/* Bride's qualifications */}
@@ -202,7 +202,7 @@ export default function FormalInvitation() {
               fontStyle: 'italic',
             }}
           >
-            (చి. సౌ. కిరణ్ శ్రీ)
+            (చి. ల. సౌ. కిరణ్ శ్రీ)
           </motion.p>
 
           <motion.p

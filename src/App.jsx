@@ -161,27 +161,7 @@ function ScratchReveal({ onReveal }) {
           >
             {revealed ? (
               <>
-                <p
-                  style={{
-                    margin: '4px',
-                    letterSpacing: '2px',
-                    fontSize: '22px',
-                    fontFamily: 'Georgia, serif',
-                  }}
-                >
-                  SUMUHURTAM
-                </p>
-
-                <p
-                  lang="te"
-                  style={{
-                    fontFamily: '"Noto Sans Telugu", sans-serif',
-                    fontSize: '21px',
-                    margin: '4px 0 14px',
-                  }}
-                >
-                  శుభ ముహూర్తం
-                </p>
+    
 
                 <p
                   style={{

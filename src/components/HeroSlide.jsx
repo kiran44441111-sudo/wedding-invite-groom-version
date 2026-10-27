@@ -80,7 +80,7 @@ export default function HeroSlide() {
               textShadow: '0 0 8px rgba(212, 175, 55, 0.25)',
             }}
           >
-            Kiran Sree
+            Srikanth
           </span>
 
           <span
@@ -100,7 +100,7 @@ export default function HeroSlide() {
               textShadow: '0 0 8px rgba(212, 175, 55, 0.25)',
             }}
           >
-            Srikanth
+            Kiran Sree
           </span>
         </motion.h1>
 
