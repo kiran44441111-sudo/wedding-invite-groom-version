@@ -110,19 +110,6 @@ export default function FormalInvitation() {
             Chi. Srikanth
           </motion.h1>
 
-          {/* Groom's qualifications */}
-          <motion.p
-            variants={fadeUp}
-            style={{
-              color: '#e2bd7a',
-              fontSize: '13px',
-              letterSpacing: '0.5px',
-              margin: '0 0 10px',
-            }}
-          >
-            B.Com | LLB
-          </motion.p>
-
           <motion.p
             variants={fadeUp}
             lang="te"
@@ -180,18 +167,7 @@ export default function FormalInvitation() {
             Chi. La. Sow. Kiran Sree
           </motion.h2>
 
-          {/* Bride's qualifications */}
-          <motion.p
-            variants={fadeUp}
-            style={{
-              color: '#e2bd7a',
-              fontSize: '13px',
-              letterSpacing: '0.5px',
-              margin: '0 0 10px',
-            }}
-          >
-            B.Tech | M.Sc. | LLB
-          </motion.p>
+  
 
           <motion.p
             variants={fadeUp}
