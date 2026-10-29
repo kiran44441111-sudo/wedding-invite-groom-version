@@ -113,7 +113,7 @@ export default function FinalSlide({ dateRevealed }) {
             margin: '0 0 20px',
           }}
         >
-          With great happiness, we request the honor of your presence as we
+          With great happiness, we request the honour of your presence as we
           celebrate the sacred wedding ceremony of our elder son{' '}
           <strong>SRIKANTH</strong> with <strong>KIRAN SREE</strong>.
         </motion.p>
