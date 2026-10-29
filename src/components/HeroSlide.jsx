@@ -1,4 +1,3 @@
-
 import { motion } from 'framer-motion'
 import { fadeUp, fadeLeft } from '../animations'
 
@@ -15,9 +14,11 @@ export default function HeroSlide() {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
+        border: '2px solid #D4AF37',
+        boxSizing: 'border-box',
       }}
     >
-      {/* Cream background and three-sided toran */}
+      {/* Cream background with existing three-sided hero border */}
       <img
         src="/heroborder.jpg"
         alt=""
@@ -33,56 +34,7 @@ export default function HeroSlide() {
         }}
       />
 
-      {/* Gentle movement for separate transparent leaf images */}
-      <motion.img
-        src="/toran-left.png"
-        alt=""
-        aria-hidden="true"
-        animate={{ rotate: [0, 1.5, -1, 0] }}
-        transition={{
-          duration: 5,
-          repeat: Infinity,
-          ease: 'easeInOut',
-        }}
-        style={{
-          position: 'absolute',
-          left: 0,
-          top: '8%',
-          width: 'clamp(55px, 17vw, 130px)',
-          height: '45%',
-          objectFit: 'contain',
-          objectPosition: 'left top',
-          transformOrigin: 'top left',
-          zIndex: -1,
-          pointerEvents: 'none',
-        }}
-      />
-
-      <motion.img
-        src="/toran-right.png"
-        alt=""
-        aria-hidden="true"
-        animate={{ rotate: [0, -1.5, 1, 0] }}
-        transition={{
-          duration: 5.5,
-          repeat: Infinity,
-          ease: 'easeInOut',
-        }}
-        style={{
-          position: 'absolute',
-          right: 0,
-          top: '8%',
-          width: 'clamp(55px, 17vw, 130px)',
-          height: '45%',
-          objectFit: 'contain',
-          objectPosition: 'right top',
-          transformOrigin: 'top right',
-          zIndex: -1,
-          pointerEvents: 'none',
-        }}
-      />
-
-      {/* Couple portrait: domed top and softly curved bottom */}
+      {/* Couple portrait */}
       <motion.div
         initial={{ opacity: 0, y: 18, scale: 0.97 }}
         whileInView={{ opacity: 1, y: 0, scale: 1 }}
@@ -90,12 +42,12 @@ export default function HeroSlide() {
         transition={{ duration: 0.9, ease: 'easeOut' }}
         style={{
           position: 'absolute',
-          top: '7%',
-          width: 'min(64vw, 310px)',
-          height: '57%',
-          maxHeight: '510px',
+          top: '14%',
+          width: 'min(45vw, 310px)',
+          height: '49%',
+          maxHeight: '514px',
           overflow: 'hidden',
-          borderRadius: '50% 50% 46% 46% / 23% 23% 12% 12%',
+          borderRadius: '54% 54% 46% 46% / 24% 24% 14% 14%',
           zIndex: 1,
           boxShadow: '0 8px 24px rgba(83, 47, 15, 0.18)',
         }}
@@ -113,7 +65,7 @@ export default function HeroSlide() {
         />
       </motion.div>
 
-      {/* Existing welcome and names panel */}
+      {/* Welcome and names panel */}
       <motion.div
         variants={fadeUp}
         initial="hidden"
